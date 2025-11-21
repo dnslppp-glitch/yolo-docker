@@ -1,10 +1,9 @@
 # YOLOv3 Docker (과제 #1 제출용)
 
-이 레포지토리는 Darknet 기반 YOLOv3를 Docker 이미지로 패키징한 예제입니다.
+
 
 ## 요구사항
-- Docker가 설치되어 있어야 합니다.
-- 인터넷 연결이 필요합니다 (yolov3.weights 다운로드 등).
+
 
 ## 빌드 및 실행
 1. Docker 이미지 빌드
@@ -31,7 +30,6 @@ docker push <DOCKERHUB_USERNAME>/yolo:latest
 docker run --rm <DOCKERHUB_USERNAME>/yolo https://upload.wikimedia.org/wikipedia/commons/3/3b/SBB_Re_450_097_ZKB_Nachtnetz.jpg
 ```
 
-실행하면 darknet이 yolov3.weights를 (없다면) 다운로드하고 입력 이미지에 대해 예측 결과를 표준출력으로 표시합니다.
 
 ## GitHub 제출
 - Dockerfile을 포함한 레포지토리 전체를 GitHub에 푸시하세요.
